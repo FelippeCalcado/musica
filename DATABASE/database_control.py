@@ -1,7 +1,18 @@
 from operations import data_generator
 from DATABASE import notas, escalas, acordes
 
-data = {
+dict_data = {
+    'todas_as_notas_b': notas.NOTAS_B,
+    'todas_as_notas_s': notas.NOTAS_S,
+    'todos_os_graus': notas.GRAUS,
+    'escala_em_graus': escalas.ESCALAS,
+    'acordes_em_graus': acordes.TIPOS_DE_ACORDE_DICT,
+    'notas_no_tom': data_generator.notas_no_tom,
+}
+
+
+"""
+dict_data = {
     'todas_as_notas_b': notas.NOTAS_B,
     'todas_as_notas_s': notas.NOTAS_S,
     'todos_os_graus': notas.GRAUS,
@@ -9,10 +20,7 @@ data = {
     'acordes_em_graus': acordes.TIPOS_DE_ACORDE_DICT,
     'notas_no_tom': data_generator.notas_no_tom,
     'graus_notas': data_generator.grau_nota
-}
-
-
-
+}"""
 # TESTES
 
 def print_data(data):
