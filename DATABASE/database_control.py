@@ -4,10 +4,11 @@ from DATABASE import notas, escalas, acordes
 dict_data = {
     'todas_as_notas_b': notas.NOTAS_B,
     'todas_as_notas_s': notas.NOTAS_S,
-    'todos_os_graus': notas.GRAUS,
-    'escala_em_graus': escalas.ESCALAS,
-    'acordes_em_graus': acordes.TIPOS_DE_ACORDE_DICT,
-    'notas_no_tom': data_generator.notas_no_tom,
+    'todos_os_graus_b': notas.GRAUS_B,
+    'todos_os_graus_s': notas.GRAUS_S,
+    'escala_em_graus_s': escalas.ESCALAS_S,
+    'escala_em_graus_b': escalas.ESCALAS_B,
+    'acordes_em_graus': acordes.TIPOS_DE_ACORDE_DICT
 }
 
 

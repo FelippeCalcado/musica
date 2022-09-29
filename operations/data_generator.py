@@ -7,8 +7,17 @@ def notas_no_tom(tom, b_or_s):
     lst = generic_functions.list_reorderer(tom_maiusculo, notes)
     return lst
 
-def graus_da_escala(scale_name):
-    return generic_functions.get_data('escala_em_graus')[scale_name]
 
-def dict_grau_nota(graus, escala):
-    return generic_functions.dict_creator(graus, escala)
+def todos_os_graus(b_or_s):
+    return generic_functions.get_data(f'todos_os_graus_{b_or_s}')
+
+
+def graus_da_escala(scale_name, b_or_s):
+    return generic_functions.get_data(f'escala_em_graus_{b_or_s}')[scale_name]
+
+
+def dict_grau_nota(graus, notas):
+    return generic_functions.dict_creator(graus, notas)
+
+def acordes():
+    return generic_functions.get_data('acordes_em_graus')

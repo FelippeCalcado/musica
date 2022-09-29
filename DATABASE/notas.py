@@ -25,16 +25,8 @@ NOTAS_B = [      'C',
 
 NOTAS = {'s': NOTAS_S, 'b': NOTAS_B}
 
-GRAUS = [
-    'I', 'I#',
-    'II', 'II#',
-    'III',
-    'IV', 'IV#',
-    'V', 'V#',
-    'VI',
-    'VI#',
-    'VII'
-]
+GRAUS_B = ['I', 'IIb', 'II', 'IIIb', 'III', 'IV', 'Vb', 'V', 'VIb', 'VI', 'VIIb', 'VII']
 
+GRAUS_S = ['I', 'I#', 'II', 'II#', 'III', 'IV', 'IV#', 'V', 'V#', 'VI', 'VI#', 'VII']
 
 
